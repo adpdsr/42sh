@@ -1,0 +1,63 @@
+ls
+echo "test" > toto
+wc < toto | cat -e
+wc < toto | cat -e
+cat toto
+echo > "test"
+ls
+rm test toto
+ls
+echo "test de toto" > toto
+wc < toto | cat -e
+wc < toto
+wc < toto | cat -e
+wc < toto | cat -e
+wc < toto | cat -e
+wc < toto | cat -e | cat -e > titi
+wc < toto | cat -e | cat -e > titi
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e | wc
+wc < toto | cat -e | cat -e | wc | cat -e
+wc < toto | cat -e | cat -e | wc | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc | cat -e | wc -c > titi
+ls
+cat titi
+rm titi
+wc < toto | cat -e | cat -e | wc | cat -e | wc -c > titi
+wc < toto | cat -e | cat -e | wc | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e
+wc < toto | cat -e | cat -e | wc -c
+ls | cat -e | cat -e |  wc -c > titi
+wc < toto | cat -e | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc -c > titi
+cat titi
+wc < toto | cat -e | cat -e | wc -c
+ls /dev/fd
+wc < toto | cat -e | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc -c > titi
+wc < toto | cat -e | cat -e | wc -c > titi
+cat titi
+rm titi
+ls
+wc < toto | cat -e | cat -e | wc -c
+exi
+ls > toto
+cat toto
+ls > toto > titi > tutu
+cat tutu
+wc < toto | cat -e | cat -e | wc -c
+wc < toto | cat -e | cat -e | wc -c > tptp
+ls /dev/fd
+wc < toto | cat -e | cat -e | wc -c > tptp
