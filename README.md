@@ -8,14 +8,13 @@ La version la plus aboutie de mon shell UNIX.
   
 ###Fonctionnalités :
   
-####Edition de ligne
+####Edition de ligne avancée
   
 * Affichage d'un prompt dynamique
 * Copier/couper/coller
 * Edition multilignes
 * Historique et complétion dynamique de l'historique
-* Placer le curseur en debut/fin de ligne
-* Se déplacer de mot en mot
+* Déplacement de mot en mot, en début/fin de ligne
   
 ####Builtins
   
@@ -29,20 +28,16 @@ La version la plus aboutie de mon shell UNIX.
 * exit
 * history et '!'
   
-####Exécution de commandes simples avec leurs paramètres et gestion du PATH
+####Gestion de l'environnement et des variables locales
+  
+####Exécution de commandes avec leurs paramètres et gestion du PATH
   
 ####Gestion des erreurs et de la valeur de retour des commandes
   
-####Les opérateurs de redirection suivants : ">", ">>", "<" et "|"
+####Opérateurs de redirection : ">", ">>", "<" et "|"
   
-####Les opérateurs logiques "&&" et "||"
+####Opérateurs logiques "&&" et "||", le séparateur ";"
   
-####Le séparateur ";"
+####Inhibiteurs : """ (double quote), "’" (simple quote) et "\" (backslash)
   
-####Les inhibiteurs """ (double quote), "’" (simple quote) et "\" (backslash)
-  
-####Les redirections avancées : l’aggrégation des sorties de fichier et le heredoc "<<"
-  
-####Gestion de l'environnement et des variables locales
-  
-et plus encore...
+####Redirections avancées : aggrégation des sorties de fichier et heredoc ("<<")
