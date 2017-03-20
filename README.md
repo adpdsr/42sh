@@ -1,14 +1,14 @@
-#42sh
+# 42sh
   
 Projet Ecole 42
   
-##Synopsis
+## Synopsis
   
 La version la plus aboutie de mon shell UNIX.
   
-###Fonctionnalités :
+### Fonctionnalités :
   
-####Edition de ligne avancée
+#### Edition de ligne avancée
   
 * Affichage d'un prompt dynamique
 * Copier/couper/coller
@@ -16,7 +16,7 @@ La version la plus aboutie de mon shell UNIX.
 * Historique et complétion dynamique de l'historique
 * Déplacement de mot en mot, en début/fin de ligne
   
-####Builtins
+#### Builtins
   
 * cd
 * echo
@@ -28,16 +28,16 @@ La version la plus aboutie de mon shell UNIX.
 * exit
 * history et '!'
   
-####Gestion de l'environnement et des variables locales
+#### Gestion de l'environnement et des variables locales
   
-####Exécution de commandes avec leurs paramètres et gestion du PATH
+#### Exécution de commandes avec leurs paramètres et gestion du PATH
   
-####Gestion des erreurs et de la valeur de retour des commandes
+#### Gestion des erreurs et de la valeur de retour des commandes
   
-####Opérateurs de redirection : ">", ">>", "<" et "|"
+#### Opérateurs de redirection : ">", ">>", "<" et "|"
   
-####Opérateurs logiques "&&" et "||", le séparateur ";"
+#### Opérateurs logiques "&&" et "||", le séparateur ";"
   
-####Inhibiteurs : """ (double quote), "’" (simple quote) et "\" (backslash)
+#### Inhibiteurs : """ (double quote), "’" (simple quote) et "\" (backslash)
   
-####Redirections avancées : aggrégation des sorties de fichier et heredoc ("<<")
+#### Redirections avancées : aggrégation des sorties de fichier et heredoc ("<<")
